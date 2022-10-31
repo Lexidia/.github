@@ -1,0 +1,26 @@
+# https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files
+# https://citation-file-format.github.io/
+
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+authors:
+  - given-names: The person's given names
+    name-particle: von
+    family-names: Doe
+    name-suffix: Jr.
+    email: email@example.org
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0003-4925-7248'
+type: software
+title: My fantastic software
+repository-code: >-
+  https://github.com/citation-file-format/citation-file-format
+url: 'https://citation-file-format.github.io/'
+abstract: A description or summary of the work.
+keywords:
+  - keyword
+  - other-keyword
+  - Yet another keyword
+license: MIT
